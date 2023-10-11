@@ -23,7 +23,7 @@
 官网链接：  
 ```  
 https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software
-**[CUBEIDEGET](https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software)**   
+  **[CUBEIDEGET](https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software)**   
 ```
 跳转链接  
   **[CUBEIDEGET](https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software)**   
