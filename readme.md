@@ -21,7 +21,7 @@
 # 2023-10-11  
 今天还是尝试从官网下载cubeide的最新版本，竟然下载成功了，传回QQ晚上回去在PC上面再试一下   
 `code`  
-`printf("Hi World\r\n");`
+`printf("Hi World\r\n");`  
 <font size=7>官网链接</font>：  
 ```  
 https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software  
