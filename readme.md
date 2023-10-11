@@ -22,10 +22,10 @@
 今天还是尝试从官网下载cubeide的最新版本，竟然下载成功了，传回QQ晚上回去在PC上面再试一下  
 官网链接：  
 ```  
-(https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software)  
+https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software  
 ```
 跳转链接  
-(https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software)  
+<https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software>  
 
 ![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/ce98ffc3-dd82-464a-a9df-804b4ce72e32)  
 ![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/e2b9432a-ffbc-4a0f-b464-b4de22675cdb)  
