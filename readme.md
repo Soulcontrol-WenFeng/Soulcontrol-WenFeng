@@ -1,5 +1,5 @@
 # 2023-10-09  
-关键词：NAS、循环缓冲、旋转矩阵、cubeide dark theme plug-in、GitHub link、PCB Backup、some stupid GitHub item 
+关键词：NAS、循环缓冲、旋转矩阵、cubeide dark theme plug-in、GitHub link、PCB Backup、some stupid GitHub items   
 --------------------------  
 今日学习效率低下，真是辛苦自己了  
 
