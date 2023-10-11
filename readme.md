@@ -24,8 +24,8 @@
 ```  
 https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software  
 ```  
-![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/ce98ffc3-dd82-464a-a9df-804b4ce72e32)
-![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/e2b9432a-ffbc-4a0f-b464-b4de22675cdb)
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/ce98ffc3-dd82-464a-a9df-804b4ce72e32)  
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/e2b9432a-ffbc-4a0f-b464-b4de22675cdb)  
 官网上的最新版本为1.13.2，公司电脑上的为1.12.1，可能是版本不够新的问题，PC上的1.5.0software升级每次也都不成功  
-![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/e80a8425-4149-49b5-9c54-498028ddf473)
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/e80a8425-4149-49b5-9c54-498028ddf473)  
 
