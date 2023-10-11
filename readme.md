@@ -25,7 +25,7 @@
 https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software    
 ```
 跳转链接  
-**[CUBEIDEGET]([https://eff.org](https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software))**.  
+  **[CUBEIDEGET](https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software)**.  
 <https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software>  
 
 ![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/ce98ffc3-dd82-464a-a9df-804b4ce72e32)  
