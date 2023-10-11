@@ -20,11 +20,11 @@
 
 # 2023-10-11  
 今天还是尝试从官网下载cubeide的最新版本，竟然下载成功了，传回QQ晚上回去在PC上面再试一下  
-<font size=4>官网链接</font>：  
+<font size=7>官网链接</font>：  
 ```  
 https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software  
 ```
-跳转链接  
+<font color=yellow>跳转链接</font>  
   **[CUBEIDEGET](https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software)**   
 <https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software>  
 
