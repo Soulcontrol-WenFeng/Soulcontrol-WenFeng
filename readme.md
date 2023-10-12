@@ -35,3 +35,12 @@ https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software
 官网上的最新版本为1.13.2，公司电脑上的为1.12.1，可能是版本不够新的问题，PC上的1.5.0software升级每次也都不成功  
 ![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/e80a8425-4149-49b5-9c54-498028ddf473)  
 
+回到住所后将官网下载的1.13.2版本下载在PC上，下载成功后软件默认为黑色主题背景，以为是已经下载好了DARK THEME插件，点进去发现是软件自带的黑色设置，不过这个版本的黑色背景确实还可以，但是代码高亮的部分比较一般，可以说有点清爽，于是又下载了一遍DARK THEME插件，这回成功下载并且重启，值得注意的是官网下载的这个版本需要登陆你的个人账号才能进行设备支持包等一系列插件或者软件的下载，以下：  
+![KQ) TS`BY@I$4 B WNT2)I](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/984f9903-d74c-4495-bd97-e4a1c86b4b12)
+
+
+
+# 2023-10-12
+
+
+
