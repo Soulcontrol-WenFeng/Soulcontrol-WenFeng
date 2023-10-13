@@ -64,6 +64,8 @@ https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software
 ![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/b23ecb1a-6d8e-44a2-b054-3b1c9c106a8d)
 ![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/58f8cc1b-3a95-4231-a38c-553cdb377917)
 
+然后注释掉，重新编译，又开始报莫名其妙的错误，于是我决定，建立新工程，这次我只拷贝.c和.h文件，可能有个sdkconfig的文件会影响到，所以只拷贝如下几个：    
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/6222983f-e9e6-4c22-a581-2a0514500dd4)
 
 
 
