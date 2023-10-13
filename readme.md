@@ -43,4 +43,22 @@ https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software
 # 2023-10-12
 
 
+# 2023-10-13  
+关键词：Eclipse、乱码、UFT-8、代码移植、CMakelist  
+--------------
+
+问题：今天在移植同事的一个工程（基于ESP32模组的代码）的时候编译不过，一般编译到一半就出错，显示某文件中索引不到某变量或者某定义（由于失败工程已经删除此处不放截图）。这里猜测可能是因为某些包含的头文件没有被索引到。同事用于代码编辑的工具是notepad++，编译的平台是乐鑫提供的ESP-IDF-CMD,不过他的版本为五点多，我电脑上面的则是4.4，可能由于版本不一样导致无法编译。但是在ESP提供的Espressif-IDE中编译也仍然报错，如下：  
+
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/1c0e428f-464e-4456-9136-4e564c5908b6)  
+
+主要为两种错误：  
+`1、implicit declaration of function ……，did you mean  ……（隐式声明）`
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/59e500f5-be72-4684-bdca-9ef3bfb2e976)  
+
+`2、symbol '……‘ could not be resolved(符号无法解析)`  
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/a2b8b28b-86a3-4604-abc7-5047cc8aba4e)
+
+
+
+
 
