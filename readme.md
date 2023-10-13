@@ -58,6 +58,8 @@ https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software
 `2、symbol '……‘ could not be resolved(符号无法解析)`  
 ![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/a2b8b28b-86a3-4604-abc7-5047cc8aba4e)
 
+根据我以往的经验，出现该两种错误有可能是其他错误造成的，比如头文件索引问题，或者是cmakelist里面的头文件和源文件路径问题，在该工程当中，很容易就可以发现符号CONFIG_I2C_MASTER_PORT等以下列I2C相关定义没有找到，而在main文件中却仍被调用，有可能同事发给我的工程少了一些文件，也有可能是某处的编译开关被关掉导致无法索引。  
+
 
 
 
