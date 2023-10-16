@@ -77,6 +77,9 @@ https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software
 测试中发现，程序无法进行烧写，将电路上的RS485（该485为5V供电，数据口输出电压也为5V，而ESP32模组则为3.3V）芯片拆下后烧写正常。  
 
 后续打算更换3.3V供电的485芯片测试看看。  
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/d01dc3f2-cef1-45c9-92e6-43fbebbed088)
+
+
 
 
 
