@@ -83,9 +83,28 @@ https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software
 
 
 # 2023-11-21  
-上周结束了为期三周的工厂重复性组装工作，昨日又重新回到公司来。在工厂这段时间的工作中，让我感受到了工厂同事的热情于乐观，我觉得他们才是真正的工人阶级，不抱怨，发挥主观能动性，将好的情绪传递给周围的人，希望他们能早日迎来双休。
+上周结束了为期三周的工厂重复性组装工作，昨日又重新回到公司来。在工厂这段时间的工作中，让我感受到了工厂同事的热情于乐观，我觉得他们才是真正的工人阶级，不抱怨，发挥主观能动性，将好的情绪传递给周围的人，希望他们能早日迎来双休。  
 
 
 
- 也让我知道了在当今如此内卷的大背景下，想要躺平意味着要有一定程序的“卷”，也许就是老生常谈的先苦后甜吧。在此也深刻意识到了个人核心竞争力的重要性。
+ 也让我知道了在当今如此内卷的大背景下，想要躺平意味着要有一定程序的“卷”，也许就是老生常谈的先苦后甜吧。在此也深刻意识到了个人核心竞争力的重要性。  
+
+ 最近忙里偷闲搞了张小板子，想要趁着空闲时间做一个温湿度可显的小玩物，目前原理图和PCB已经更新到第二个版本，添加了气压计和姿态传感芯片MPU6050,也将第一版的电源芯片TPS563201DDCR替换成了AP2112K-3.3TRG1，减少了电源部分器件数量，使得小板子里能塞下更多东西。  
+ -------------------  
+
+ `版本一`  
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/760deda5-e2a7-4918-be20-a6b6a69c7c3b)
+ ![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/315202ea-757f-44df-b843-222160400280)
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/2d5a81e9-133b-4eac-af32-13746dfb5cc1)
+
+
+
+`版本二（尚未走线）`  
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/1409d8ac-fa05-4025-88c6-052c4b36780c)
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/6f2b7a34-1788-4428-8780-1989d999a715)
+
+
+
+  
+
 
