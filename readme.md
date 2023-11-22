@@ -105,6 +105,25 @@ https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software
 
 
 
+
+# 2023-11-22  
+同事在对ESP32-C3模组进行烧写程序的时候，会出现一些欠压复位等不在意料之内的情况以及重新上电后仍然进入等待SPI下载的情况，如下：  
+`rst:0xc (RTC_SW_CPU_RST),boot:0xf (SPI_FAST_FLASH_BOOT)`  
+`SPIWP:0xee`  
+`mode:DI0, clock div:1`  
+
+`rst:0xf (BROWNOUT_RST), boot:0x1(SPI_DOWNLOAD_BOOT)`  
+`wait spi download`  
+
+`rst:0x1 (POWERON), boot:0xf (SPI_FAST_FLASH_BOOT)`  
+`SPIWP:0xee`  
+
+`rst:0xf(BROWNOUT_RST),boot:0x7(DOWNLOAD(USB/UART0/1))`  
+`waiting for download`    
+
+在以上情况当中，出现了  rst:0xf (BROWNOUT_RST)    boot:0xf (SPI_FAST_FLASH_BOOT)  意味着欠压复位,  
+如果是 rst:0x1 (POWERON)  意味着上电复位  
+
   
 
 
