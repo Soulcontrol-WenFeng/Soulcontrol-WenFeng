@@ -121,7 +121,7 @@ https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software
 `rst:0xf(BROWNOUT_RST),boot:0x7(DOWNLOAD(USB/UART0/1))`  
 `waiting for download`    
 
-在以上情况当中，出现了  rst:0xf (BROWNOUT_RST)    boot:0xf (SPI_FAST_FLASH_BOOT)  意味着欠压复位,  
+在以上情况当中，出现了  **rst:0xf (BROWNOUT_RST)**  ,  **boot:0xf (SPI_FAST_FLASH_BOOT)**  意味着欠压复位,  
 如果是 **rst:0x1 (POWERON)**  意味着上电复位  
 
   
