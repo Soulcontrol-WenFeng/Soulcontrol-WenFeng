@@ -124,6 +124,11 @@ https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software
 在以上情况当中，出现了  **rst:0xf (BROWNOUT_RST)**  ,  **boot:0xf (SPI_FAST_FLASH_BOOT)**  意味着欠压复位,  
 如果是 **rst:0x1 (POWERON)**  意味着上电复位  
 
-  
+
+
+
+  # 2023-12-12 
+  Thinking:  想根据自己卧室的增高架尺寸做一个桌面控制台，刚好可以嵌进增高架下面的空间，遮挡住后面的排查和电线，具有电脑主机开关机，温湿度等参数显示，旋钮调节音量等参数等功能，留有冗余接口   
+  ------------------
 
 
