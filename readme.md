@@ -137,9 +137,10 @@ https://www.st.com/zh/development-tools/stm32cubeide.html#st-get-software
 Thinking：这段时间还想要做一个跟FOC相关的项目，或者跟无刷电机相关的项目，正好可以增进一下相关方面的知识。  
 -------------------------------------------------------  
 跟FOC相关的理论知识可以先行补充，此前有在知乎找到两个帖子，写得蛮精细，有一个是稚晖君做的关于FOC开源的项目，可做参考或者复刻。  
+稚晖君：  
 https://zhuanlan.zhihu.com/p/147659820   
-  
-
+其他：  
+https://zhuanlan.zhihu.com/p/364247816  
 
 
 
