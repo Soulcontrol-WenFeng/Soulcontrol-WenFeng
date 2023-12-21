@@ -149,17 +149,17 @@ https://zhuanlan.zhihu.com/p/364247816
 
 今日任务一：阅读FOC控制的相关代码
 --------------
-阅读的是稚晖君开源的Ctrl-FOC-Lite-fw版本的代码，有一份是基于STM32写的，但是文件结构和之前的看到的有点不一样，这份代码中有.project文件，应该可以在STM32CUBEIDE当中打开和编译，但是会报错，该工程代码文件结构如下 
-----
+**阅读的是稚晖君开源的Ctrl-FOC-Lite-fw版本的代码，有一份是基于STM32写的，但是文件结构和之前的看到的有点不一样，这份代码中有.project文件，应该可以在STM32CUBEIDE当中打开和编译，但是会报错，该工程代码文件结构如下**   
 ![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/0596d394-5964-4c96-a11f-061abced5d08)  
-相较于以往的工程文件，只不过是多了几个文件夹，主体文件结构没有变化，所以编译不过可能是配置方面的问题  
-----
+
+**相较于以往的工程文件，只不过是多了几个文件夹，主体文件结构没有变化，所以编译不过可能是配置方面的问题**  
 ![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/54cd971b-d0ff-450b-bb2b-7aedf726b11a)  
-我们查看IDE报错的信息：  
-----
+
+**我们查看IDE报错的信息：**    
 ![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/afe6986a-26ac-4e63-b111-3a43eac1c661)  
 ![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/bbff49ce-6fde-4d2b-8172-359455e8d5fd)  
 
+**这里面有个FATAL ERROR,找不到该文件，但很显然我还是索引到了该文件，这又是一个严重错误，排查中**  
 
 
 
