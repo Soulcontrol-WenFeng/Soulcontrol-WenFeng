@@ -174,7 +174,7 @@ https://zhuanlan.zhihu.com/p/364247816
 **重新打开WORKSPACE路径，然后导入该工程，修改头文件路径，出现其他错误**  
 ![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/3152a0b9-d474-4c4b-8a72-046c2a578c6a)  
 
-**在该份代码中，不是很确定UserApp当猴子那个的main.cpp会不会和Core/Src当中的main.c文件起冲突，并且二者都有一个mian()函数只不过一个是Main()**  
+**在该份代码中，不是很确定UserApp当猴子那个的main.cpp会不会和Core/Src当中的main.c文件起冲突，并且二者都有一个main()函数只不过其中一个是Main()，检查一下CMakelist文件**  
 
 
 
