@@ -153,26 +153,26 @@ https://zhuanlan.zhihu.com/p/364247816
 ![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/0596d394-5964-4c96-a11f-061abced5d08)  
 
 **相较于以往的工程文件，只不过是多了几个文件夹，主体文件结构没有变化，所以编译不过可能是配置方面的问题**  
-![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/54cd971b-d0ff-450b-bb2b-7aedf726b11a)  
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/54cd971b-d0ff-450b-bb2b-7aedf726b11a)    
 
 **我们查看IDE报错的信息：**    
-![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/afe6986a-26ac-4e63-b111-3a43eac1c661)  
-![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/bbff49ce-6fde-4d2b-8172-359455e8d5fd)  
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/afe6986a-26ac-4e63-b111-3a43eac1c661)    
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/bbff49ce-6fde-4d2b-8172-359455e8d5fd)    
 
 **这里面有个FATAL ERROR,找不到该文件，但很显然我还是索引到了该文件，这又是一个严重错误，排查中**  
-![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/346a67fe-9650-4914-a8c8-67b9da5acd7c)
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/346a67fe-9650-4914-a8c8-67b9da5acd7c)  
 **在UserApp和Platform等文件夹中的文件应该是C++的文件，后缀是.cpp**  
-![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/b21a273b-1402-4585-b7ca-705ce7d7580e)
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/b21a273b-1402-4585-b7ca-705ce7d7580e)  
 
 
 **我们进入ide的添加头文件路径选项，将没有索引到的头文件添加到link路径当中**  
-![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/9c631fc0-a4f7-46f1-b8af-77bc034b2d94)
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/9c631fc0-a4f7-46f1-b8af-77bc034b2d94)  
 **重新build，这个时候我们发现，找不到.h文件的错误没有了，但是有新的错误出现，如下：**  
-![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/53081ed2-2ff3-46c7-a850-b6f7684cbaed)
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/53081ed2-2ff3-46c7-a850-b6f7684cbaed)  
 **在console窗口我们可以看到这些错误的详情，我们发现，报错的路径中显示的是E 盘，但是我们的工程文件所在的workspace是在F盘，E盘中存在中文路径，可能有潜在的隐患，所以我决定删掉该工程文件，重新导入，这里我也意识到了错误的地方，一开始我是从下载的文件夹当中打开了工程文件，导致了工程并不在默认的WORKSPACE空间当中，这是一个低级错误**  
-![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/3d9d0a88-3673-4620-b65c-6a85ad8c6649)
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/3d9d0a88-3673-4620-b65c-6a85ad8c6649)  
 **重新打开WORKSPACE路径，然后导入该工程，修改头文件路径，出现其他错误**  
-![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/3152a0b9-d474-4c4b-8a72-046c2a578c6a)
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/3152a0b9-d474-4c4b-8a72-046c2a578c6a)  
 
 **在该份代码中，不是很确定UserApp当猴子那个的main.cpp会不会和Core/Src当中的main.c文件起冲突，并且二者都有一个mian()函数只不过一个是Main()**  
 
