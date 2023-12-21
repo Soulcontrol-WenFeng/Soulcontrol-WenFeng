@@ -160,7 +160,9 @@ https://zhuanlan.zhihu.com/p/364247816
 ![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/bbff49ce-6fde-4d2b-8172-359455e8d5fd)  
 
 **这里面有个FATAL ERROR,找不到该文件，但很显然我还是索引到了该文件，这又是一个严重错误，排查中**  
-
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/346a67fe-9650-4914-a8c8-67b9da5acd7c)
+**在UserApp和Platform等文件夹中的文件应该是C++的文件，后缀是.cpp**  
+![image](https://github.com/Soulcontrol-WenFeng/Soulcontrol-WenFeng/assets/74033919/b21a273b-1402-4585-b7ca-705ce7d7580e)
 
 
 
