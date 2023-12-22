@@ -178,7 +178,11 @@ https://zhuanlan.zhihu.com/p/364247816
 
 
 
-
+#2023-12-22  
+昨天的代码编译先不深究，重要的是先看懂FOC的驱动代码，可以自己移植到其他平台上面，可以先阅读一些相关的帖子，以下一些帖子可供参考：  
+https://zhuanlan.zhihu.com/p/293470912  
+https://zhuanlan.zhihu.com/p/364247816#Foc%E6%8E%A7%E5%88%B6%E6%A1%86%E6%9E%B6%E5%9B%BE  
+https://www.zhihu.com/column/zhishixuediande  
 
 
 
