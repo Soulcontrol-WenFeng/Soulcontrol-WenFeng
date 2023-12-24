@@ -184,7 +184,12 @@ https://zhuanlan.zhihu.com/p/293470912
 https://zhuanlan.zhihu.com/p/364247816#Foc%E6%8E%A7%E5%88%B6%E6%A1%86%E6%9E%B6%E5%9B%BE  
 https://www.zhihu.com/column/zhishixuediande  
 
-
+#2023-12-24  
+今天仍然阅读FOC相关资料以及一些开源项目的原理图和PCB，以下为相关链接：    
+https://oshwhub.com/yourallo/youngfoc  
+https://oshwhub.com/hvan/core_foc_mcupart  
+https://oshwhub.com/a1804889557/xin-chun-kuai-le-ning-meng-FOCka  
+https://oshwhub.com/Knight_Sin/abcd   
 
 
 
