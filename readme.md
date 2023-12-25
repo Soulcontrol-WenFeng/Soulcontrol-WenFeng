@@ -192,6 +192,9 @@ https://oshwhub.com/a1804889557/xin-chun-kuai-le-ning-meng-FOCka
 https://oshwhub.com/Knight_Sin/abcd   
 
 
+#2023-12-25  
+今日仍然阅读FOC相关开源项目和资料，大概年底之前可以出一张 FOC的板子  
+
 
 
 
